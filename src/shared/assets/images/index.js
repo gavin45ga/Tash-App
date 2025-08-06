@@ -1,0 +1,11 @@
+export { default as BillIcon } from "./bill.png";
+export { default as SliderImage } from "./slider.png";
+export { default as SquareImage } from "./squareitem.png";
+export { default as TashLogoA } from "./tashLogo.png";
+export { default as TashLogoB } from "./tashLogo1.png";
+export { default as TashLogoC } from "./circleTash.png";
+export { default as TashLogoD } from "./circleTashA.png";
+export { default as Back } from "./back.png";
+export { default as Info } from "./info.jpg";
+export { default as Send } from "./telegram.png";
+export { default as Edit } from "./edit.png";

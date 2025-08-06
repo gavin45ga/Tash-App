@@ -1,0 +1,185 @@
+import { StyleSheet } from 'react-native';
+import { Fonts, Colors, FontSize } from 'shared/theme';
+import { Metrics, getHeight, getWidth } from 'utils';
+
+export default StyleSheet.create({
+  container: {
+    flex: 1,
+    width: Metrics.screenWidth,
+    backgroundColor: '#fbf5ff',
+  },
+  wrapper: {
+    flex: 1,
+    backgroundColor: '#fbf5ff',
+  },
+  inputWrapper: {
+    paddingHorizontal: getWidth(20),
+    flex: 1,
+    backgroundColor: '#fbf5ff',
+    alignContent: 'center',
+  },
+  labelStyle: {
+    fontSize: FontSize.mediumSmall,
+    color: Colors.white,
+  },
+  flex1: {
+    flex: 1,
+  },
+  logo: {
+    justifyContent: 'center',
+    alignSelf: 'center',
+    alignContent: 'center',
+    flex: 1,
+    maxHeight: getHeight(180),
+    alignItems: 'center',
+  },
+  noAccountText: {
+    flexDirection: 'row',
+    height: getHeight(40),
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  loginButtonConatiner: {
+    marginTop: getHeight(20),
+    opacity: 0.8,
+  },
+  loginButton: {
+    height: getHeight(50),
+    borderRadius: 50,
+    marginHorizontal: getHeight(12),
+    backgroundColor: '#691aa0',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  btnText: {
+    alignSelf: 'center',
+    fontWeight: '700',
+  },
+  loginContent: {
+    fontSize: FontSize.small,
+    color: '#691aa0',
+  },
+  loginCWrapper: {
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    paddingHorizontal: getHeight(8),
+    marginBottom: getHeight(10),
+  },
+  card: {
+    marginTop: getHeight(70),
+    backgroundColor: Colors.white,
+    marginHorizontal: getWidth(15),
+    //flex: 1,
+    borderRadius: 24,
+    padding: getHeight(30),
+    shadowColor: '#2c0618',
+    shadowOffset: {
+      width: 0,
+      height: 12,
+    },
+    shadowOpacity: 0.58,
+    shadowRadius: 16.0,
+    elevation: 24,
+  },
+  logoWrapper: {
+    marginTop: getHeight(50),
+    width: getHeight(150),
+    height: getHeight(150),
+    borderRadius: getWidth(100),
+    backgroundColor: '#fbf5ff',
+    shadowColor: '#2c0618',
+    justifyContent: 'center',
+    shadowOffset: {
+      width: 0,
+      height: 12,
+    },
+    shadowOpacity: 0.58,
+    shadowRadius: 16.0,
+    elevation: 24,
+  },
+  logoInWrap: {
+    width: getHeight(130),
+    height: getHeight(130),
+    borderRadius: getWidth(100),
+    alignSelf: 'center',
+    backgroundColor: '#fdebf4',
+    shadowColor: '#691aa0',
+    shadowOffset: {
+      width: 0,
+      height: 12,
+    },
+    shadowOpacity: 0.98,
+    shadowRadius: 16.0,
+    elevation: 24,
+    justifyContent: 'center',
+  },
+  authWrapper: {
+    height: getHeight(40),
+    marginBottom: getHeight(20),
+    flexDirection: 'row',
+  },
+  authTextWrap: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+    padding: 2,
+  },
+  authLoginTextWrap: {
+    flex: 1,
+    alignItems: 'center',
+    padding: 2,
+    borderRightWidth: 0.4,
+    borderColor: '#691aa0',
+  },
+  authSignUpTextWrap: {
+    flex: 1,
+    alignItems: 'center',
+    padding: 2,
+  },
+  authText: {
+    color: '#691aa0',
+    fontSize: FontSize.large,
+    textAlign: 'center',
+    fontWeight: '500',
+    alignSelf: 'center',
+  },
+  logoText: {
+    color: '#691aa0',
+    fontSize: FontSize.large,
+    textAlign: 'center',
+    fontWeight: '700',
+    alignSelf: 'center',
+  },
+  inputContainer: {
+    paddingHorizontal: getHeight(20),
+    marginVertical: getHeight(6),
+    height: getHeight(45),
+    borderRadius: 50,
+    borderWidth: 1,
+    justifyContent: 'center',
+  },
+  input: {
+    marginVertical: 8,
+    color: '#691aa0',
+    fontWeight: '500',
+    padding: 0,
+    opacity: 0.9,
+    fontSize: FontSize.base,
+  },
+  errorStyle: {
+    paddingHorizontal: getHeight(20), padding: 0, margin: 0, fontSize: 10, top: 0, color: Colors.red
+  },
+  activeTab: {
+    fontSize: FontSize.mlarge,
+    fontWeight: '700',
+  },
+  logoIcon: {
+    justifyContent: 'center',
+    alignSelf: 'center',
+    alignContent: 'center',
+    width: getHeight(127),
+    height: getHeight(127),
+    borderRadius: 50,
+    alignItems: 'center',
+  },
+});

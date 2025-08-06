@@ -1,2 +1,2 @@
-# Tash-App
-Guided by Tash
+# tash
+
